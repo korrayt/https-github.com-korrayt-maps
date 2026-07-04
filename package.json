@@ -132,7 +132,7 @@
     "@turf/length": "6.5.0",
     "@turf/nearest-point-on-line": "6.5.0",
     "@types/geojson": "^7946.0.7",
-    "debounce": "^2.2.0"
+    "debounce": "^3.0.0"
   },
   "peerDependencies": {
     "expo": ">=47.0.0",
