@@ -20,11 +20,11 @@ jobs:
         run: convert -version
         working-directory: /
       - name: Checkout maps repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           path: maps
       - name: Checkout maps-docs repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: rnmapbox/maps-docs
           ssh-key: ${{ secrets.MAPS_DOCS_DEPLOY_KEY }}

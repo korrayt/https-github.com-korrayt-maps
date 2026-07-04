@@ -36,11 +36,11 @@ jobs:
     environment: ${{ inputs.env_name }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         if: ${{ inputs.ref == '' }}
       
       - name: Checkout fork
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         if: ${{ inputs.ref != '' }}
         with:
           ref: ${{ inputs.ref }}
