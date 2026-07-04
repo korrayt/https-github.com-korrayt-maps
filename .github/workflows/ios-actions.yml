@@ -127,7 +127,7 @@ jobs:
           SKIP_TESTS_NO_METAL: ${{ inputs.MAP_IMPL == 'mapbox' || inputs.MAP_IMPL == 'mapbox11' }}
 
       - name: Store Detox artifacts on test failure
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         if: failure()
         with:
           name: detox-artifacts
