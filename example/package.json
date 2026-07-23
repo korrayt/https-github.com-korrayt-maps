@@ -32,7 +32,7 @@
     "@turf/length": "^6.5.0",
     "@turf/nearest-point-on-line": "6.5.0",
     "@types/mapbox__geo-viewport": "^0.5.3",
-    "debounce": "^2.2.0",
+    "debounce": "^3.0.0",
     "fbjs": "^3.0.5",
     "lodash.isequal": "^4.5.0",
     "moment": "^2.30.1",
