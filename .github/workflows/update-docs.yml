@@ -29,7 +29,7 @@ jobs:
           repository: rnmapbox/maps-docs
           ssh-key: ${{ secrets.MAPS_DOCS_DEPLOY_KEY }}
           path: maps-docs
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7.0.0
         with:
           node-version: 20.19.4
       - uses: oven-sh/setup-bun@v2
