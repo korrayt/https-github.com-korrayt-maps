@@ -18,7 +18,7 @@ jobs:
         run: echo 'dummytoken' > ./accesstoken
         working-directory: example
       - name: Setup node ${{ steps.nvm.outputs.NVMRC }}
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7.0.0
         with:
           node-version: ${{ steps.nvm.outputs.NVMRC }}
           registry-url: 'https://registry.npmjs.org'

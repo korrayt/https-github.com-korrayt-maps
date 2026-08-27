@@ -46,7 +46,7 @@ jobs:
           ref: ${{ inputs.ref }}
 
       - name: Setup node ${{ inputs.NVMRC }}
-        uses: actions/setup-node@v3.5.1
+        uses: actions/setup-node@v7.0.0
         with:
           node-version: ${{ inputs.NVMRC }}
 
